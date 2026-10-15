@@ -1,0 +1,29 @@
+[project]
+name = "ai-document-assistant-with-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "surabhisarnot", email = "surabhisarnot@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=1.14.0",
+    "chromadb>=1.5.9",
+    "fastembed>=0.9.0",
+    "pypdf>=6.20.1",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+ai-document-assistant-with-rag = "ai_document_assistant_with_rag:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.17.0",
+]
