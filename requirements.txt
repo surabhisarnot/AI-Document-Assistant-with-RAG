@@ -3,3 +3,4 @@ chromadb
 pypdf
 fastembed
 python-dotenv
+fonttools
