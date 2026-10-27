@@ -4,3 +4,4 @@ pypdf
 fastembed
 python-dotenv
 fonttools
+streamlit

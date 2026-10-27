@@ -14,11 +14,10 @@ def cmd_ingest(path: str) -> None:
 
 
 def cmd_ask(question: str, k: int) -> None:
-    chunks = retrieve(question, k=k)
-    if not chunks:
+    result = ask(question, k=k)
+    if result.get("reason") == "no_documents":
         print("Nothing indexed yet. Run: rag ingest <file.pdf>")
         return
-    result = answer(question, chunks)
     print(result["answer"])
     if result["sources"]:
         print("\nSources:")

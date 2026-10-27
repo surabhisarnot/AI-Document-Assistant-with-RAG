@@ -1,0 +1,175 @@
+[
+  {
+    "question": "What year did the commercialization of agriculture start in India?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 2,
+    "answer_snippet": "began around 1860"
+  },
+  {
+    "question": "Which crops were the main cash crops in colonial India?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 2,
+    "answer_snippet": "cotton, jute, indigo, sugarcane, tea, opium and oilseeds"
+  },
+  {
+    "question": "Why did the demand for Indian cotton rise in the 1860s?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 2,
+    "answer_snippet": "American Civil War of the early 1860s"
+  },
+  {
+    "question": "When did the Suez Canal open?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 2,
+    "answer_snippet": "opening of the Suez Canal in 1869"
+  },
+  {
+    "question": "Why did peasants under colonial rule need cash?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 2,
+    "answer_snippet": "Land revenue under colonial rule had to be paid in cash"
+  },
+  {
+    "question": "Who was the first prime minister of India?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 3,
+    "answer_snippet": "first prime minister of independent India"
+  },
+  {
+    "question": "Who was Jawaharlal Nehru?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 3,
+    "answer_snippet": "leading figure of the Indian National Congress"
+  },
+  {
+    "question": "When did Jawaharlal Nehru die?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 3,
+    "answer_snippet": "27 May 1964"
+  },
+  {
+    "question": "What was the name of Nehru's famous speech on the eve of independence?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 3,
+    "answer_snippet": "Tryst with Destiny"
+  },
+  {
+    "question": "When did India's first Five-Year Plan begin?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 3,
+    "answer_snippet": "the first of which began in 1951"
+  },
+  {
+    "question": "Which day is celebrated as Children's Day in India?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 3,
+    "answer_snippet": "14 November, is celebrated"
+  },
+  {
+    "question": "Who is known as the Bandit Queen of India?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 4,
+    "answer_snippet": "known as the Bandit Queen of India"
+  },
+  {
+    "question": "In which year did Phoolan Devi surrender?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 4,
+    "answer_snippet": "In 1983 she surrendered"
+  },
+  {
+    "question": "Who wrote the story of Phoolan Devi's life?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 4,
+    "answer_snippet": "befriended by a writer, Mala Sen"
+  },
+  {
+    "question": "Who directed the film Bandit Queen?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 4,
+    "answer_snippet": "directed by Shekhar Kapur"
+  },
+  {
+    "question": "When was Phoolan Devi assassinated?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 4,
+    "answer_snippet": "25 July 2001"
+  },
+  {
+    "question": "How long did Mayawati serve as Chief Minister of Uttar Pradesh in her first term?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 5,
+    "answer_snippet": "lasted less than five months"
+  },
+  {
+    "question": "Which party does Mayawati lead?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 5,
+    "answer_snippet": "leader of the Bahujan Samaj Party"
+  },
+  {
+    "question": "When did Mayawati complete a full five-year term as chief minister?",
+    "answerable": true,
+    "source": "India_History_Test.pdf",
+    "page": 5,
+    "answer_snippet": "full five-year term, which ended in 2012"
+  },
+  {
+    "question": "What did the Indian Idol 2026 winner perform?",
+    "answerable": false,
+    "category": "unrelated"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answerable": false,
+    "category": "unrelated"
+  },
+  {
+    "question": "How long does it take for a tomato to grow?",
+    "answerable": false,
+    "category": "unrelated"
+  },
+  {
+    "question": "What was India's GDP growth rate in 2035?",
+    "answerable": false,
+    "category": "unrelated"
+  },
+  {
+    "question": "Who won the 2022 FIFA World Cup?",
+    "answerable": false,
+    "category": "unrelated"
+  },
+  {
+    "question": "What was Jawaharlal Nehru's salary as prime minister?",
+    "answerable": false,
+    "category": "topic_adjacent"
+  },
+  {
+    "question": "How many films did Phoolan Devi act in?",
+    "answerable": false,
+    "category": "topic_adjacent"
+  },
+  {
+    "question": "What was the price of a bale of cotton in 1865?",
+    "answerable": false,
+    "category": "topic_adjacent"
+  }
+]

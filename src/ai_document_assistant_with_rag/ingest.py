@@ -2,6 +2,7 @@ from pathlib import Path
 from typing import Any
 
 from pypdf import PdfReader
+import re
 
 
 def load_pdf(path: str) -> list[dict[str, Any]]:
@@ -10,7 +11,8 @@ def load_pdf(path: str) -> list[dict[str, Any]]:
     pages: list[dict[str, Any]] = []
 
     for page_number, page in enumerate(PdfReader(path).pages, start=1):
-        text = (page.extract_text() or "").strip()
+        raw_text = (page.extract_text() or "").strip()
+        text = clean_text(raw_text)
         if not text:
             continue
         pages.append({"source": source, "page": page_number, "text": text})
@@ -48,3 +50,10 @@ def chunk_pages(
                 break
 
     return chunks
+
+def clean_text(text: str) -> str:
+    """Repair PDF line-wrapping artifacts."""
+    text = re.sub(r"-\n(?=[a-z])", "", text)        # govern-\nments -> governments
+    text = re.sub(r"(?<!\n)\n(?!\n)", " ", text)    # single newline -> space
+    text = re.sub(r"[ \t]+", " ", text)             # collapse repeated spaces
+    return text.strip()

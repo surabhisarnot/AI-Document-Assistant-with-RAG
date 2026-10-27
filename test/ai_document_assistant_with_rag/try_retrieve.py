@@ -11,6 +11,6 @@ questions = [
 for q in questions:
     print("=" * 60)
     print("Q:", q)
-    for r in retrieve(q, k=4):
+    for r in retrieve(q, k=6):
         print(f"  {r['source']} p{r['page']} | distance {r['distance']:.3f}")
         print("   ", r["text"][:150].replace("\n", " "))
